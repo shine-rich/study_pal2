@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>pixi-live2d-display Basic</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+    <main id="container">
+      <div id="live">
+        <canvas id="canvas"></canvas>
+        <img id="background" src="background.webp" alt="background" draggable="false">
+      </div>
+      <div id="chat">
+        <div id="messages">
+          <div class="chiai">Hi! My name is Chiai, nice to meet you!</div>
+        </div>
+        <form id="form">
+          <input id="message" placeholder="say hi!" autocomplete="off">
+          <button id="send" type="submit">Send</button>
+        </form>
+      </div>
+    </main>
+
+<script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.2/dist/browser/pixi.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
+
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
